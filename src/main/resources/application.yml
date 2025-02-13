@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/metro_service
+    username: root
+    password: PAvan@45
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  kafka:
+    bootstrap-servers: localhost:9092  # For Kafka events
+
+  redis:
+    host: localhost
+    port: 6379
