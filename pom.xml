@@ -8,8 +8,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.2</version> <!-- Ensure this matches your Spring Boot version -->
-		<relativePath/> <!-- lookup parent from repository -->
+		<version>3.2.2</version>
+		<relativePath/>
 	</parent>
 
 	<groupId>com.user</groupId>
@@ -19,7 +19,7 @@
 	<description>This is User Service</description>
 
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 		<spring-cloud.version>2022.0.4</spring-cloud.version>  <!-- Downgraded for compatibility -->
 	</properties>
 
